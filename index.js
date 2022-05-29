@@ -89,6 +89,7 @@ module.exports = {
 			},
 		],
 		eqeqeq: "off",
+		"func-name-matching": "off",
 		//
 		"array-bracket-newline": [
 			"error",
