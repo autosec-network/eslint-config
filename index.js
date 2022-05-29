@@ -90,6 +90,13 @@ module.exports = {
 		],
 		"eqeqeq": "off",
 		"func-name-matching": "off",
+		"func-names": [
+			"error",
+			"as-needed",
+			{
+				generators: "as-needed",
+			},
+		],
 		//
 		"array-bracket-newline": [
 			"error",
