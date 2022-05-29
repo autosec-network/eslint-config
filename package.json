@@ -2,7 +2,7 @@
 	"name": "@autosec/eslint-config",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": ".eslintrc.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/autosec-network/eslint-config.git"
