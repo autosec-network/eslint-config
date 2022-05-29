@@ -108,6 +108,17 @@ module.exports = {
 		"no-delete-var": "warn",
 		"no-div-regex": "error",
 		"no-else-return": "error",
+		"no-empty": "error",
+		"no-empty-function": "error",
+		"no-eq-null": "warn",
+		"no-eval": "error",
+		// "no-extend-native": ["error", { exceptions: [] }],
+		"no-extra-bind": "error",
+		"no-extra-boolean-cast": "error",
+		"no-extra-semi": "error",
+		"no-floating-decimal": "error",
+		// "no-global-assign": ["error", { exceptions: [] }],
+		"no-implicit-coercion": "error",
 		//
 		"array-bracket-newline": [
 			"error",
