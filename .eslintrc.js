@@ -7,11 +7,6 @@ module.exports = {
 		ecmaVersion: 2022,
 		sourceType: "module",
 	},
-	globals: {
-		Response: "readonly",
-		addEventListener: "readonly",
-		WORKERS_GRAPHQL_CACHE: "readonly",
-	},
 	// https://ota-meshi.github.io/eslint-plugin-yml/rules/
 	rules: {
 		"array-callback-return": [
