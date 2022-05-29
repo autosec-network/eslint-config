@@ -13,5 +13,8 @@
 	"bugs": {
 		"url": "https://github.com/autosec-network/eslint-config/issues"
 	},
-	"homepage": "https://github.com/autosec-network/eslint-config#readme"
+	"homepage": "https://github.com/autosec-network/eslint-config#readme",
+	"peerDependencies": {
+		"eslint": ">= 8"
+	}
 }
