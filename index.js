@@ -69,16 +69,16 @@ module.exports = {
 		],
 		"arrow-body-style": ["error", "as-needed"],
 		"block-scoped-var": "error",
-		camelcase: "warn",
+		"camelcase": "warn",
 		"class-methods-use-this": "off",
-		complexity: "warn",
+		"complexity": "warn",
 		"consistent-return": [
 			"error",
 			{
 				treatUndefinedAsUnspecified: true,
 			},
 		],
-		curly: "error",
+		"curly": "error",
 		"default-case": "warn",
 		"default-case-last": "error",
 		"default-param-last": ["error"],
@@ -88,7 +88,7 @@ module.exports = {
 				allowKeywords: false,
 			},
 		],
-		eqeqeq: "off",
+		"eqeqeq": "off",
 		"func-name-matching": "off",
 		//
 		"array-bracket-newline": [
@@ -104,9 +104,9 @@ module.exports = {
 				singleValue: true,
 			},
 		],
-		indent: ["error", "tab", { SwitchCase: 1 }],
+		"indent": ["error", "tab", { SwitchCase: 1 }],
 		"linebreak-style": ["error", "unix"],
-		quotes: ["error", "single"],
-		semi: ["error", "always"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
 	},
 };
