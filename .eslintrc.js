@@ -9,6 +9,7 @@ module.exports = {
 	},
 	// https://ota-meshi.github.io/eslint-plugin-yml/rules/
 	rules: {
+		// Possible Problems
 		"array-callback-return": [
 			"error",
 			{
@@ -56,6 +57,7 @@ module.exports = {
 				enforceForIndexOf: true,
 			},
 		],
+		// Suggestions
 		"accessor-pairs": [
 			"warn",
 			{
@@ -120,6 +122,7 @@ module.exports = {
 		// "no-global-assign": ["error", { exceptions: [] }],
 		"no-implicit-coercion": "error",
 		//
+		// Layout & Formatting
 		"array-bracket-newline": [
 			"error",
 			{
