@@ -2,8 +2,7 @@ name: Auto Publish Package
 
 on:
   push:
-    branches:
-      - "main"
+    branches: ["main"]
   workflow_dispatch:
     inputs:
       required: true
