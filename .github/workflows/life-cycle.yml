@@ -3,6 +3,9 @@ name: Package Life Cycle
 on:
   registry_package:
 
+permissions:
+  packages: write
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
