@@ -1,4 +1,4 @@
-name: Publish Package
+name: Auto Upload Package
 
 on:
   release:
