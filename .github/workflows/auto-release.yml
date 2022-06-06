@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Get latest git tag
+        run: echo "::set-output name=lasttag::$(git describe --abbrev=0)"
+        id: get-latest-tag
+        shell: bash
       - uses: softprops/action-gh-release@v1
         with:
           prerelease: ${{ (contains(github.head_ref, 'pre') || contains(github.ref_name, 'pre')) && true || false }}
