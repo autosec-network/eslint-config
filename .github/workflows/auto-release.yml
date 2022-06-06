@@ -17,6 +17,6 @@ jobs:
         shell: bash
       - uses: softprops/action-gh-release@v1
         with:
-          prerelease: ${{ (contains(github.head_ref, 'pre') || contains(github.ref_name, 'pre') || contains(steps.get-latest-tag.outputs.lasttag, 'pre')) && true || false }}
+          prerelease: ${{ (contains(github.ref_name, 'pre') || contains(steps.get-latest-tag.outputs.lasttag, 'pre')) && true || false }}
           tag_name: ${{ github.ref_name || steps.get-latest-tag.outputs.lasttag }}
           generate_release_notes: true
