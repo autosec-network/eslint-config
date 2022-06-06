@@ -9,7 +9,6 @@
 	},
 	"author": "autosec",
 	"license": "UNLICENSED",
-	"private": true,
 	"bugs": {
 		"url": "https://github.com/autosec-network/eslint-config/issues"
 	},
