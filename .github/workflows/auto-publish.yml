@@ -1,5 +1,4 @@
 name: Auto Publish Package
-
 on:
   push:
     branches:
