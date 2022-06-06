@@ -42,3 +42,7 @@ jobs:
       - run: npm version --sign-git-tag=true ${{ github.event.inputs.vIncrement || 'patch' }} -m "[ci skip] Triggered build %s"
       - run: git push
       - run: git push --tags
+      - uses: softprops/action-gh-release@v1
+        with:
+          prerelease: ${{ (contains(github.event.inputs.vIncrement, 'pre') || false }}
+          generate_release_notes: true
