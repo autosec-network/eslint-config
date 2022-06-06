@@ -5,17 +5,19 @@ on:
     branches: ["main"]
   workflow_dispatch:
     inputs:
-      required: true
-      default: "patch"
-      type: choice
-      options:
-        - major
-        - minor
-        - patch
-        - premajor
-        - preminor
-        - prepatch
-        - prerelease
+      vIncrement:
+        description: "Increment"
+        required: true
+        type: choice
+        default: "patch"
+        options:
+          - major
+          - minor
+          - patch
+          - premajor
+          - preminor
+          - prepatch
+          - prerelease
 
 jobs:
   version:
