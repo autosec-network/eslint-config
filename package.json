@@ -1,5 +1,5 @@
 {
-	"name": "@autosec/eslint-config",
+	"name": "@autosec-network/eslint-config",
 	"version": "1.0.0",
 	"description": "",
 	"main": ".eslintrc.js",
