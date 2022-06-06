@@ -28,4 +28,3 @@ jobs:
         with:
           node-version: lts/*
           cache: "npm"
-      - run: echo "The tags are ${{ github.event.inputs.vIncrement || 'patch' }}"
