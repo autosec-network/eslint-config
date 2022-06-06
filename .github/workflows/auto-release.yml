@@ -23,5 +23,5 @@ jobs:
         with:
           body: ${{ steps.get-changelog.outputs.changelog }}
           prerelease: ${{ (contains(github.ref_name, 'pre') || contains(steps.get-latest-tag.outputs.lasttag, 'pre')) && true || false }}
-          tag_name: ${{ github.ref_name || steps.get-latest-tag.outputs.lasttag }}
+          tag_name: ${{ startsWith(github.ref_name, 'v') && github.ref_name || steps.get-latest-tag.outputs.lasttag }}
           generate_release_notes: true
