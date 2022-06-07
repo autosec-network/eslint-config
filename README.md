@@ -46,6 +46,7 @@ $ npm i -D @autosec-network/eslint-config
 - uses: actions/setup-node@v3
   with:
     # ...
+	registry-url: https://npm.pkg.github.com/
 # Skip post-install scripts here, as a malicious script could steal NODE_AUTH_TOKEN.
 - run: npm ci --ignore-scripts
   env:
