@@ -109,7 +109,7 @@ module.exports = {
 		"no-continue": "error",
 		"no-delete-var": "warn",
 		"no-div-regex": "error",
-		"no-else-return": "error",
+		"no-else-return": "off",
 		"no-empty": "error",
 		"no-empty-function": "error",
 		"no-eq-null": "warn",
