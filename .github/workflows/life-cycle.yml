@@ -10,7 +10,7 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/delete-package-versions@v3
+      - uses: actions/delete-package-versions@v4
         with:
           package-name: "@autosec-network/eslint-config"
           min-versions-to-keep: 1000
